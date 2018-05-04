@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrintModelEditor", "PrintFieldsLocationSetting\PrintModelEditor.csproj", "{0914E418-01EC-47E1-938F-C0D9F67B1605}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL", "BLL\BLL.csproj", "{4E4FA606-FCC5-4B1D-88CF-00D51B89C305}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{B041DF5B-B9F9-4421-9228-47E776EA8196}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0914E418-01EC-47E1-938F-C0D9F67B1605}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0914E418-01EC-47E1-938F-C0D9F67B1605}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0914E418-01EC-47E1-938F-C0D9F67B1605}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0914E418-01EC-47E1-938F-C0D9F67B1605}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E4FA606-FCC5-4B1D-88CF-00D51B89C305}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E4FA606-FCC5-4B1D-88CF-00D51B89C305}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E4FA606-FCC5-4B1D-88CF-00D51B89C305}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E4FA606-FCC5-4B1D-88CF-00D51B89C305}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B041DF5B-B9F9-4421-9228-47E776EA8196}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B041DF5B-B9F9-4421-9228-47E776EA8196}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B041DF5B-B9F9-4421-9228-47E776EA8196}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B041DF5B-B9F9-4421-9228-47E776EA8196}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

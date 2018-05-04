@@ -1,0 +1,10 @@
+D:\zhst\MySVN\PrintFieldsLocationSetting\Infrastructure\bin\Debug\Infrastructure.dll
+D:\zhst\MySVN\PrintFieldsLocationSetting\Infrastructure\bin\Debug\Infrastructure.pdb
+D:\zhst\MySVN\PrintFieldsLocationSetting\Infrastructure\obj\Debug\Infrastructure.csprojResolveAssemblyReference.cache
+D:\zhst\MySVN\PrintFieldsLocationSetting\Infrastructure\obj\Debug\Infrastructure.dll
+D:\zhst\MySVN\PrintFieldsLocationSetting\Infrastructure\obj\Debug\Infrastructure.pdb
+C:\Users\kedekfb\Desktop\Projects\PrintFieldsLocationSetting\PrintFieldsLocationSetting\Infrastructure\bin\Debug\Infrastructure.dll
+C:\Users\kedekfb\Desktop\Projects\PrintFieldsLocationSetting\PrintFieldsLocationSetting\Infrastructure\bin\Debug\Infrastructure.pdb
+C:\Users\kedekfb\Desktop\Projects\PrintFieldsLocationSetting\PrintFieldsLocationSetting\Infrastructure\obj\Debug\Infrastructure.csprojResolveAssemblyReference.cache
+C:\Users\kedekfb\Desktop\Projects\PrintFieldsLocationSetting\PrintFieldsLocationSetting\Infrastructure\obj\Debug\Infrastructure.dll
+C:\Users\kedekfb\Desktop\Projects\PrintFieldsLocationSetting\PrintFieldsLocationSetting\Infrastructure\obj\Debug\Infrastructure.pdb

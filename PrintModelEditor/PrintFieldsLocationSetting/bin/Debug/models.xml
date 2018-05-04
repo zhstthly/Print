@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<ArrayOfPrintModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <PrintModel>
+    <ModelID>01379345-bdc2-4373-8365-c5ed93e5143c</ModelID>
+    <ModelName>手动打印快递单</ModelName>
+    <CompanyName>FGG</CompanyName>
+    <BindingPage>b35fce80-b820-478d-b375-57670be2f053</BindingPage>
+  </PrintModel>
+</ArrayOfPrintModel>

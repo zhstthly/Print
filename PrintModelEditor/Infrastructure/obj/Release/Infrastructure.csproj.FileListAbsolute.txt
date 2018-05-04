@@ -1,0 +1,5 @@
+D:\zhst\MySVN\PrintFieldsLocationSetting\Infrastructure\bin\Release\Infrastructure.dll
+D:\zhst\MySVN\PrintFieldsLocationSetting\Infrastructure\bin\Release\Infrastructure.pdb
+D:\zhst\MySVN\PrintFieldsLocationSetting\Infrastructure\obj\Release\Infrastructure.csprojResolveAssemblyReference.cache
+D:\zhst\MySVN\PrintFieldsLocationSetting\Infrastructure\obj\Release\Infrastructure.dll
+D:\zhst\MySVN\PrintFieldsLocationSetting\Infrastructure\obj\Release\Infrastructure.pdb

@@ -1,0 +1,1110 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MIS.Model</name>
+    </assembly>
+    <members>
+        <member name="P:MIS.Model.Data.FilialeEntity.ID">
+            <summary>
+            公司ID
+            </summary>
+        </member>
+        <member name="P:MIS.Model.Data.FilialeEntity.ParentId">
+            <summary>
+            父公司ID
+            </summary>
+        </member>
+        <member name="P:MIS.Model.Data.FilialeEntity.Rank">
+            <summary>
+            公司级别（分类）
+            </summary>
+        </member>
+        <member name="P:MIS.Model.Data.FilialeEntity.Name">
+            <summary>
+            公司名称
+            </summary>
+        </member>
+        <member name="P:MIS.Model.Data.FilialeEntity.RealName">
+            <summary>
+            公司全称
+            </summary>
+        </member>
+        <member name="P:MIS.Model.Data.FilialeEntity.Code">
+            <summary>
+            公司编码
+            </summary>
+        </member>
+        <member name="P:MIS.Model.Data.FilialeEntity.Address">
+            <summary>
+            公司地址
+            </summary>
+        </member>
+        <member name="P:MIS.Model.Data.FilialeEntity.Phone">
+            <summary>
+            公司电话
+            </summary>
+        </member>
+        <member name="P:MIS.Model.Data.FilialeEntity.TaxNumber">
+            <summary>
+            公司税号
+            </summary>
+        </member>
+        <member name="P:MIS.Model.Data.FilialeEntity.RegisterAddress">
+            <summary>
+            公司注册地址
+            </summary>
+        </member>
+        <member name="P:MIS.Model.Data.FilialeEntity.Description">
+            <summary>
+            公司描述
+            </summary>
+        </member>
+        <member name="P:MIS.Model.Data.FilialeEntity.IsActive">
+            <summary>
+            有否有效
+            </summary>
+        </member>
+        <member name="P:MIS.Model.Data.FilialeEntity.OrderIndex">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:MIS.Model.Data.FilialeGoodsTypeRelationEntity">
+            <summary>
+            公司商品类型关系
+            </summary>
+        </member>
+        <member name="P:MIS.Model.Data.FilialeGoodsTypeRelationEntity.ID">
+            <summary>
+            ID
+            </summary>
+        </member>
+        <member name="P:MIS.Model.Data.FilialeGoodsTypeRelationEntity.FilialeID">
+            <summary>
+            公司ID
+            </summary>
+        </member>
+        <member name="P:MIS.Model.Data.FilialeGoodsTypeRelationEntity.GoodsType">
+            <summary>
+            商品类型
+            </summary>
+        </member>
+        <member name="T:MIS.Model.Data.FilialeTypeRelationEntity">
+            <summary>
+            公司类型关系
+            </summary>
+        </member>
+        <member name="P:MIS.Model.Data.FilialeTypeRelationEntity.ID">
+            <summary>
+            ID
+            </summary>
+        </member>
+        <member name="P:MIS.Model.Data.FilialeTypeRelationEntity.FilialeID">
+            <summary>
+            公司ID
+            </summary>
+        </member>
+        <member name="P:MIS.Model.Data.FilialeTypeRelationEntity.FilialeType">
+            <summary>
+            公司类型
+            </summary>
+        </member>
+        <member name="T:MIS.Model.Data.LoginAccountEntity">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:MIS.Model.Data.LoginAccountEntity.PersonnelId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:MIS.Model.Data.LoginAccountEntity.BranchPositionID">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:MIS.Model.Data.LoginAccountEntity.SystemBranchPositionID">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:MIS.Model.Data.LoginAccountEntity.AccountNo">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:MIS.Model.Data.LoginAccountEntity.RealName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:MIS.Model.Data.LoginAccountEntity.Password">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:MIS.Model.Data.LoginAccountEntity.CreateDate">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:MIS.Model.Data.LoginAccountEntity.LoginStartTime">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:MIS.Model.Data.LoginAccountEntity.LoginEndTime">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:MIS.Model.Data.LoginAccountEntity.IsActive">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:MIS.Model.Data.LoginAccountEntity.LoginTimes">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:MIS.Model.Data.LoginSessionEntity">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:MIS.Model.Data.LoginSessionEntity.Token">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:MIS.Model.Data.LoginSessionEntity.PersonnelId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:MIS.Model.Data.LoginSessionEntity.ExpireTime">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:MIS.Model.Data.MenuEntity">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:MIS.Model.Data.MenuEntity.ID">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:MIS.Model.Data.MenuEntity.ParentID">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:MIS.Model.Data.MenuEntity.Name">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:MIS.Model.Data.MenuEntity.OrderIndex">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:MIS.Model.Data.MenuEntity.MenuTemplateID">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:MIS.Model.Data.MenuEntity.IsFreeVisit">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:MIS.Model.Data.MenuEntity.IsCEOAuthorize">
+            <summary>
+            是否总裁办授权
+            </summary>
+        </member>
+        <member name="T:MIS.Model.Data.MenuPermissionEntity">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:MIS.Model.Data.MenuPermissionEntity.MenuId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:MIS.Model.Data.MenuPermissionEntity.SystemBranchPositionID">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:MIS.Model.Data.MenuPermissionEntity.SystemID">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:MIS.Model.Data.PositionEntity.ID">
+            <summary>
+            职务ID
+            </summary>
+        </member>
+        <member name="P:MIS.Model.Data.PositionEntity.Name">
+            <summary>
+            职务名称
+            </summary>
+        </member>
+        <member name="P:MIS.Model.Data.PositionEntity.OrderIndex">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:MIS.Model.Data.PositionEntity.Description">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:MIS.Model.Data.PositionEntity.IsActive">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:MIS.Model.Data.SalePlatformEntity">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:MIS.Model.Data.SalePlatformEntity.ID">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:MIS.Model.Data.SalePlatformEntity.FilialeId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:MIS.Model.Data.SalePlatformEntity.Name">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:MIS.Model.Data.SalePlatformEntity.ExternalName">
+            <summary>
+            对外名称
+            </summary>
+        </member>
+        <member name="P:MIS.Model.Data.SalePlatformEntity.Type">
+            <summary>
+            平台类型
+            </summary>
+        </member>
+        <member name="P:MIS.Model.Data.SalePlatformEntity.Url">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:MIS.Model.Data.SalePlatformEntity.IsActive">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:MIS.Model.Data.SalePlatformEntity.IsDefault">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:MIS.Model.Data.SalePlatformEntity.IsInvoice">
+            <summary>
+            是否开票
+            </summary>
+        </member>
+        <member name="P:MIS.Model.Data.SalePlatformEntity.AccountCheckingType">
+            <summary>
+            对账类型
+            </summary>
+        </member>
+        <member name="P:MIS.Model.Data.SalePlatformEntity.OrderIndex">
+            <summary>
+            排序字段
+            </summary>
+        </member>
+        <member name="P:MIS.Model.Data.SalePlatformEntity.IsTaxReturn">
+            <summary>
+            是否报税
+            </summary>
+        </member>
+        <member name="T:MIS.Model.Data.SystemBranchEntity">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:MIS.Model.Data.SystemBranchEntity.ID">
+            <summary>
+            部门ID
+            </summary>
+        </member>
+        <member name="P:MIS.Model.Data.SystemBranchEntity.Name">
+            <summary>
+            部门名称
+            </summary>
+        </member>
+        <member name="P:MIS.Model.Data.SystemBranchEntity.OrderIndex">
+            <summary>
+            部门排序
+            </summary>
+        </member>
+        <member name="P:MIS.Model.Data.SystemBranchEntity.ParentID">
+            <summary>
+            父部门ID
+            </summary>
+        </member>
+        <member name="T:MIS.Model.Data.SystemEntity">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:MIS.Model.Data.SystemEntity.ID">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:MIS.Model.Data.SystemEntity.FilialeId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:MIS.Model.Data.SystemEntity.Key">
+            <summary>
+            系统关键字，为了方便寻找WCF配置
+            </summary>
+        </member>
+        <member name="P:MIS.Model.Data.SystemEntity.Name">
+            <summary>
+            系统名称
+            </summary>
+        </member>
+        <member name="P:MIS.Model.Data.SystemEntity.Domain">
+            <summary>
+            系统地址域名
+            </summary>
+        </member>
+        <member name="P:MIS.Model.Data.SystemEntity.Port">
+            <summary>
+            系统地址端口
+            </summary>
+        </member>
+        <member name="P:MIS.Model.Data.SystemEntity.CreateDate">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:MIS.Model.Data.SystemEntity.Description">
+            <summary>
+            描述
+            </summary>
+        </member>
+        <member name="P:MIS.Model.Data.SystemEntity.OrderIndex">
+            <summary>
+            排序
+            </summary>
+        </member>
+        <member name="P:MIS.Model.Data.SystemEntity.IsActive">
+            <summary>
+            是否有效
+            </summary>
+        </member>
+        <member name="P:MIS.Model.Data.SystemEntity.ServiceType">
+            <summary>
+            服务类型
+            </summary>
+        </member>
+        <member name="P:MIS.Model.Data.SystemEntity.Type">
+            <summary>
+            系统类型
+            </summary>
+        </member>
+        <member name="P:MIS.Model.Data.SystemEntity.MenuTemplateID">
+            <summary>
+            菜单模版ID
+            </summary>
+        </member>
+        <member name="P:MIS.Model.Data.SystemEntity.IsSupportPush">
+            <summary>
+            是否支持推送
+            </summary>
+        </member>
+        <member name="P:MIS.Model.Data.SystemEntity.ServiceEndPointName">
+            <summary>
+            服务终结点名称
+            </summary>
+        </member>
+        <member name="T:MIS.Model.Data.WarningTypeEntity">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:MIS.Model.Data.WarningTypeEntity.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:MIS.Model.Data.WarningTypeEntity.ID">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:MIS.Model.Data.WarningTypeEntity.WarningCode">
+            <summary>
+            预警CODE
+            </summary>
+        </member>
+        <member name="P:MIS.Model.Data.WarningTypeEntity.WarningName">
+            <summary>
+            预警名称
+            </summary>
+        </member>
+        <member name="P:MIS.Model.Data.WarningTypeEntity.WarningNumber">
+            <summary>
+            预警数量
+            </summary>
+        </member>
+        <member name="P:MIS.Model.Data.WarningTypeEntity.SystemID">
+            <summary>
+            系统ID
+            </summary>
+        </member>
+        <member name="P:MIS.Model.Data.WarningTypeEntity.SalePlatformID">
+            <summary>
+            销售平台
+            </summary>
+        </member>
+        <member name="P:MIS.Model.Data.WarningTypeEntity.SystemName">
+            <summary>
+            系统名称
+            </summary>
+        </member>
+        <member name="P:MIS.Model.Data.WarningTypeEntity.ViewPage">
+            <summary>
+            查看页面
+            </summary>
+        </member>
+        <member name="M:MIS.Model.Data.WarningTypeEntity.ValidateWarningCode">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MIS.Model.Data.WarningTypeEntity.ValidateWarningName">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MIS.Model.Data.WarningTypeEntity.ValidateViewPage">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:MIS.Model.Data.WarningTypesPermissionEntity">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:MIS.Model.Data.WarningTypesPermissionEntity.ID">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:MIS.Model.Data.WarningTypesPermissionEntity.WarningTypesId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:MIS.Model.Data.WarningTypesPermissionEntity.PersonnelId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:MIS.Model.View.OperationPermissionInfo">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:MIS.Model.View.SystemBranchPositionInfo">
+            <summary>
+            系统部门职务关系
+            </summary>
+        </member>
+        <member name="P:MIS.Model.View.SystemBranchPositionInfo.ID">
+            <summary>
+            部门职务关系ID
+            </summary>
+        </member>
+        <member name="P:MIS.Model.View.SystemBranchPositionInfo.SystemBranchID">
+            <summary>
+            部门ID
+            </summary>
+        </member>
+        <member name="P:MIS.Model.View.SystemBranchPositionInfo.SystemPositionID">
+            <summary>
+            职务ID
+            </summary>
+        </member>
+        <member name="P:MIS.Model.View.SystemBranchPositionInfo.IsBranchManager">
+            <summary>
+            是否是部门负责人
+            </summary>
+        </member>
+        <member name="T:MIS.Model.View.SystemMenuOperationPermissionInfo">
+            <summary>
+            系统菜单操作权限
+            </summary>
+        </member>
+        <member name="P:MIS.Model.View.SystemMenuOperationPermissionInfo.SystemName">
+            <summary>
+            系统名称
+            </summary>
+        </member>
+        <member name="P:MIS.Model.View.SystemMenuOperationPermissionInfo.SystemBranchName">
+            <summary>
+            系统部门名称
+            </summary>
+        </member>
+        <member name="P:MIS.Model.View.SystemMenuOperationPermissionInfo.SystemPositionName">
+            <summary>
+            系统职务名称
+            </summary>
+        </member>
+        <member name="P:MIS.Model.View.SystemMenuOperationPermissionInfo.MenuName">
+            <summary>
+            菜单名称
+            </summary>
+        </member>
+        <member name="P:MIS.Model.View.SystemMenuOperationPermissionInfo.OperationName">
+            <summary>
+            操作点名称
+            </summary>
+        </member>
+        <member name="P:MIS.Model.View.SystemMenuOperationPermissionInfo.IsAllow">
+            <summary>
+            是否有权限
+            </summary>
+        </member>
+        <member name="P:MIS.Model.View.SystemMenuOperationPermissionInfo.SystemId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:MIS.Model.View.SystemMenuOperationPermissionInfo.SystemBranchPositionID">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:MIS.Model.View.SystemMenuOperationPermissionInfo.SystemBranchID">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:MIS.Model.View.SystemMenuOperationPermissionInfo.SystemPositionID">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:MIS.Model.View.SystemMenuOperationPermissionInfo.MenuId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:MIS.Model.View.SystemMenuOperationPermissionInfo.OperationId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:MIS.Model.View.SystemPositionInfo">
+            <summary>
+            职务信息
+            </summary>
+        </member>
+        <member name="M:MIS.Model.View.SystemPositionInfo.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:MIS.Model.View.SystemPositionInfo.#ctor(MIS.Model.Data.PositionEntity,MIS.Model.View.SystemBranchPositionInfo,MIS.Model.View.SystemBranchInfo)">
+            <summary>
+            
+            </summary>
+            <param name="positionEntity"></param>
+            <param name="branchPositionEntity"></param>
+            <param name="branchInfo"></param>
+        </member>
+        <member name="P:MIS.Model.View.SystemPositionInfo.SystemBranchPositionID">
+            <summary>
+            部门与职务关系数据ID
+            </summary>
+        </member>
+        <member name="P:MIS.Model.View.SystemPositionInfo.SystemBranchID">
+            <summary>
+            部门ID
+            </summary>
+        </member>
+        <member name="P:MIS.Model.View.SystemPositionInfo.ParentSystemBranchID">
+            <summary>
+            父级部门ID
+            </summary>
+        </member>
+        <member name="P:MIS.Model.View.SystemPositionInfo.SystemBranchName">
+            <summary>
+            部门名称
+            </summary>
+        </member>
+        <member name="T:MIS.Model.View.SystemBranchInfo">
+            <summary>
+            部门信息
+            </summary>
+        </member>
+        <member name="T:MIS.Model.View.BranchInfo">
+            <summary>
+            部门信息
+            </summary>
+        </member>
+        <member name="M:MIS.Model.View.BranchInfo.#ctor(MIS.Model.Data.BranchEntity,MIS.Model.Data.FilialeBranchEntity,MIS.Model.Data.FilialeEntity)">
+            <summary>
+            部门业务信息
+            </summary>
+            <param name="branchInfo"></param>
+            <param name="filialeBranchInfo"></param>
+            <param name="filialeInfo"></param>
+        </member>
+        <member name="P:MIS.Model.View.BranchInfo.CacheDataId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:MIS.Model.View.BranchInfo.FilialeBranchInfo">
+            <summary>
+            公司部门关系数据信息
+            </summary>
+        </member>
+        <member name="P:MIS.Model.View.BranchInfo.FilialeInfo">
+            <summary>
+            公司数据信息
+            </summary>
+        </member>
+        <member name="P:MIS.Model.View.BranchInfo.FilialeBranchID">
+            <summary>
+            公司和部门的关系记录ID
+            </summary>
+        </member>
+        <member name="P:MIS.Model.View.BranchInfo.FilialeId">
+            <summary>
+            公司ID
+            </summary>
+        </member>
+        <member name="P:MIS.Model.View.BranchInfo.FilialeName">
+            <summary>
+            公司名称
+            </summary>
+        </member>
+        <member name="P:MIS.Model.View.BranchInfo.ParentBranchId">
+            <summary>
+            父部门ID
+            </summary>
+        </member>
+        <member name="T:MIS.Model.View.SystemFilialeInfo">
+            <summary>
+            公司信息
+            </summary>
+        </member>
+        <member name="T:MIS.Model.View.FilialeInfo">
+            <summary>
+            公司信息
+            </summary>
+        </member>
+        <member name="P:MIS.Model.View.FilialeInfo.FilialeTypes">
+            <summary>
+            公司类型
+            </summary>
+        </member>
+        <member name="P:MIS.Model.View.FilialeInfo.GoodsTypes">
+            <summary>
+            经营范围（商品类型集合）
+            </summary>
+        </member>
+        <member name="T:MIS.Model.View.LoginAccountInfo">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:MIS.Model.View.LoginAccountInfo.PositionInfo">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:MIS.Model.View.LoginAccountInfo.Token">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:MIS.Model.View.LoginAccountInfo.SystemBranchId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:MIS.Model.View.LoginResultInfo">
+            <summary>
+            登录返回的信息
+            </summary>
+        </member>
+        <member name="M:MIS.Model.View.LoginResultInfo.#ctor(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="failMsg"></param>
+        </member>
+        <member name="M:MIS.Model.View.LoginResultInfo.#ctor(System.Guid,System.String,System.String,System.String,MIS.Model.View.LoginAccountInfo)">
+            <summary>
+            
+            </summary>
+            <param name="personnelId"></param>
+            <param name="accountNo"></param>
+            <param name="realName"></param>
+            <param name="token"></param>
+            <param name="loginAccountInfo"></param>
+        </member>
+        <member name="M:MIS.Model.View.LoginResultInfo.#ctor(System.Guid,System.String,System.String,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="personnelId"></param>
+            <param name="accountNo"></param>
+            <param name="realName"></param>
+            <param name="failMsg"></param>
+        </member>
+        <member name="P:MIS.Model.View.LoginResultInfo.PersonnelId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:MIS.Model.View.LoginResultInfo.AccountNo">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:MIS.Model.View.LoginResultInfo.RealName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:MIS.Model.View.LoginResultInfo.Token">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:MIS.Model.View.LoginResultInfo.IsSucess">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:MIS.Model.View.LoginResultInfo.FailMessage">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:MIS.Model.View.LoginSessionInfo">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:MIS.Model.View.LoginSessionInfo.TokenCookieName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:MIS.Model.View.LoginSessionInfo.TokenDesKey">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:MIS.Model.View.LoginSessionInfo.SaveTokenToCookie(System.String)">
+            <summary>
+            保存登录后的口令内容到COOKIE
+            </summary>
+            <param name="token"></param>
+        </member>
+        <member name="M:MIS.Model.View.LoginSessionInfo.GetCookieToken">
+            <summary>
+            获取Token
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:MIS.Model.View.MenuInfo">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:MIS.Model.View.MenuInfo.PageInfo">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:MIS.Model.View.MenuInfo.PageUrl">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:MIS.Model.View.MenuInfo.ToEntity">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:MIS.Model.View.MenuPermissionInfo">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:MIS.Model.View.MenuPermissionInfo.#ctor(MIS.Model.Data.MenuPermissionEntity)">
+            <summary>
+            
+            </summary>
+            <param name="menuPermissionEntity"></param>
+        </member>
+        <member name="T:MIS.Model.View.OperationPointInfo">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:MIS.Model.View.OperationPointInfo.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:MIS.Model.View.OperationPointInfo.#ctor(MIS.Model.Data.OperationEntity)">
+            <summary>
+            
+            </summary>
+            <param name="operationInfo"></param>
+        </member>
+        <member name="P:MIS.Model.View.OperationPointInfo.IsAllow">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:MIS.Model.View.PositionInfo">
+            <summary>
+            职务信息
+            </summary>
+        </member>
+        <member name="M:MIS.Model.View.PositionInfo.#ctor(MIS.Model.Data.PositionEntity,MIS.Model.Data.BranchPositionEntity,MIS.Model.View.BranchInfo)">
+            <summary>
+            
+            </summary>
+            <param name="positionInfo"></param>
+            <param name="branchPositionInfo"></param>
+            <param name="branchInfo"></param>
+        </member>
+        <member name="P:MIS.Model.View.PositionInfo.BranchInfo">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:MIS.Model.View.PositionInfo.BranchPositionInfo">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:MIS.Model.View.PositionInfo.FBID">
+            <summary>
+            公司与部门关系数据ID
+            </summary>
+        </member>
+        <member name="P:MIS.Model.View.PositionInfo.BranchPositionID">
+            <summary>
+            部门与职务关系数据ID
+            </summary>
+        </member>
+        <member name="P:MIS.Model.View.PositionInfo.FilialeId">
+            <summary>
+            公司ID
+            </summary>
+        </member>
+        <member name="P:MIS.Model.View.PositionInfo.FilialeName">
+            <summary>
+            公司名称
+            </summary>
+        </member>
+        <member name="P:MIS.Model.View.PositionInfo.BranchId">
+            <summary>
+            部门ID
+            </summary>
+        </member>
+        <member name="P:MIS.Model.View.PositionInfo.ParentBranchId">
+            <summary>
+            父级部门ID
+            </summary>
+        </member>
+        <member name="P:MIS.Model.View.PositionInfo.BranchName">
+            <summary>
+            部门名称
+            </summary>
+        </member>
+        <member name="T:MIS.Model.View.PushDataInfo">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:MIS.Model.View.PushDataInfo.ID">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:MIS.Model.View.PushDataInfo.FromFilialeId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:MIS.Model.View.PushDataInfo.FromFilialeName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:MIS.Model.View.PushDataInfo.FromServiceType">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:MIS.Model.View.PushDataInfo.PushFilialeId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:MIS.Model.View.PushDataInfo.PushFilialeName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:MIS.Model.View.PushDataInfo.PushServiceType">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:MIS.Model.View.PushDataInfo.MethodName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:MIS.Model.View.PushDataInfo.ParameterString">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:MIS.Model.View.PushDataInfo.IdentityKey">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:MIS.Model.View.PushDataInfo.CreateDate">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:MIS.Model.View.PushDataInfo.IsPush">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:MIS.Model.View.PushDataInfo.IsIgnore">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:MIS.Model.View.PushDataInfo.PushCount">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:MIS.Model.View.PushDataInfo.FailMessage">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:MIS.Model.View.PushDataInfo.LastPushDate">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:MIS.Model.View.SalePlatformInfo">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:MIS.Model.View.SalePlatformInfo.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:MIS.Model.View.SalePlatformInfo.#ctor(MIS.Model.Data.SalePlatformEntity)">
+            <summary>
+            
+            </summary>
+            <param name="salePlatformEntity"></param>
+        </member>
+        <member name="T:MIS.Model.View.SystemInfo">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:MIS.Model.View.SystemInfo.#ctor(MIS.Model.Data.SystemEntity,MIS.Model.View.FilialeInfo)">
+            <summary>
+            
+            </summary>
+            <param name="systemEntity"></param>
+            <param name="filialeInfo"></param>
+        </member>
+        <member name="M:MIS.Model.View.SystemInfo.#ctor(System.Guid,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <param name="name"></param>
+        </member>
+        <member name="P:MIS.Model.View.SystemInfo.FilialeID">
+            <summary>
+            公司ID
+            </summary>
+        </member>
+        <member name="P:MIS.Model.View.SystemInfo.FilialeName">
+            <summary>
+            公司名称
+            </summary>
+        </member>
+        <member name="P:MIS.Model.View.SystemInfo.Url">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:MIS.Model.View.SystemPermissionInfo">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:MIS.Model.View.SystemPermissionInfo.PositionName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:MIS.Model.View.SystemPermissionInfo.IsAllow">
+            <summary>
+            是否有权限标识
+            </summary>
+        </member>
+    </members>
+</doc>

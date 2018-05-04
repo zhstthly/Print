@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<ArrayOfPageModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <PageModel>
+    <PageID>b35fce80-b820-478d-b375-57670be2f053</PageID>
+    <PageName>常用</PageName>
+    <Width>150</Width>
+    <Height>150</Height>
+    <Padding>0</Padding>
+  </PageModel>
+</ArrayOfPageModel>

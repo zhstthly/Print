@@ -1,0 +1,12 @@
+D:\zhst\MySVN\PrintFieldsLocationSetting\BLL\bin\Release\BLL.dll
+D:\zhst\MySVN\PrintFieldsLocationSetting\BLL\bin\Release\BLL.pdb
+D:\zhst\MySVN\PrintFieldsLocationSetting\BLL\bin\Release\Framework.dll
+D:\zhst\MySVN\PrintFieldsLocationSetting\BLL\bin\Release\MIS.Enum.dll
+D:\zhst\MySVN\PrintFieldsLocationSetting\BLL\bin\Release\MIS.Model.dll
+D:\zhst\MySVN\PrintFieldsLocationSetting\BLL\bin\Release\MIS.Service.Contract.dll
+D:\zhst\MySVN\PrintFieldsLocationSetting\BLL\bin\Release\MIS.Enum.xml
+D:\zhst\MySVN\PrintFieldsLocationSetting\BLL\bin\Release\MIS.Model.xml
+D:\zhst\MySVN\PrintFieldsLocationSetting\BLL\bin\Release\MIS.Service.Contract.xml
+D:\zhst\MySVN\PrintFieldsLocationSetting\BLL\obj\Release\BLL.csprojResolveAssemblyReference.cache
+D:\zhst\MySVN\PrintFieldsLocationSetting\BLL\obj\Release\BLL.dll
+D:\zhst\MySVN\PrintFieldsLocationSetting\BLL\obj\Release\BLL.pdb
