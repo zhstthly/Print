@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<ProcessVersionDTO xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProcessName_Code>Print</ProcessName_Code>
+  <ProcessName_Install>可得打印</ProcessName_Install>
+  <Version>1.0.0.3</Version>
+  <ServerPath>Print_1_0_0_3</ServerPath>
+  <IsInUse>true</IsInUse>
+  <ForceUpdate>true</ForceUpdate>
+</ProcessVersionDTO>

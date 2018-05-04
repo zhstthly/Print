@@ -1,0 +1,7 @@
+D:\zhst\MySVN\Print\PrintEntity\bin\Release\PrintEntity.dll
+D:\zhst\MySVN\Print\PrintEntity\bin\Release\PrintEntity.pdb
+D:\zhst\MySVN\Print\PrintEntity\bin\Release\DataEntity.dll
+D:\zhst\MySVN\Print\PrintEntity\bin\Release\DataEntity.pdb
+D:\zhst\MySVN\Print\PrintEntity\obj\Release\PrintEntity.csprojResolveAssemblyReference.cache
+D:\zhst\MySVN\Print\PrintEntity\obj\Release\PrintEntity.dll
+D:\zhst\MySVN\Print\PrintEntity\obj\Release\PrintEntity.pdb

@@ -1,0 +1,10 @@
+D:\zhst\MySVN\Print\DataEntity\bin\Debug\DataEntity.dll
+D:\zhst\MySVN\Print\DataEntity\bin\Debug\DataEntity.pdb
+D:\zhst\MySVN\Print\DataEntity\obj\Debug\DataEntity.dll
+D:\zhst\MySVN\Print\DataEntity\obj\Debug\DataEntity.pdb
+D:\zhst\MySVN\Print\DataEntity\obj\Debug\DataEntity.csprojResolveAssemblyReference.cache
+C:\Users\kedekfb\Desktop\Projects\Print\Print\DataEntity\bin\Debug\DataEntity.dll
+C:\Users\kedekfb\Desktop\Projects\Print\Print\DataEntity\bin\Debug\DataEntity.pdb
+C:\Users\kedekfb\Desktop\Projects\Print\Print\DataEntity\obj\Debug\DataEntity.csprojResolveAssemblyReference.cache
+C:\Users\kedekfb\Desktop\Projects\Print\Print\DataEntity\obj\Debug\DataEntity.dll
+C:\Users\kedekfb\Desktop\Projects\Print\Print\DataEntity\obj\Debug\DataEntity.pdb

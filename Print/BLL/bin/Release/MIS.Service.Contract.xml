@@ -1,0 +1,415 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MIS.Service.Contract</name>
+    </assembly>
+    <members>
+        <member name="T:MIS.Service.Contract.ClientFactory">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:MIS.Service.Contract.ClientFactory.EndPointName">
+            <summary>
+            终结点名称：Group.MIS
+            </summary>
+        </member>
+        <member name="T:MIS.Service.Contract.IService">
+            <summary>
+            公司扩展接口
+            </summary>
+            <summary>
+            公司扩展接口
+            </summary>
+            <summary>
+            公司扩展接口
+            </summary>
+             <summary>
+            
+             </summary>
+            <summary>
+            公司扩展接口
+            </summary>
+            <summary>
+            系统扩展接口
+            </summary>
+        </member>
+        <member name="M:MIS.Service.Contract.IService.Login(System.String,System.String)">
+            <summary>
+            登录
+            </summary>
+            <param name="accountNo"></param>
+            <param name="password"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MIS.Service.Contract.IService.EntityShopLogin(System.String,System.String)">
+            <summary>
+            实体门店登录
+            </summary>
+            <param name="accountNo"></param>
+            <param name="password"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MIS.Service.Contract.IService.VerifyLoginToken(System.String)">
+            <summary>
+            验证登录口令
+            </summary>
+            <param name="token"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MIS.Service.Contract.IService.GetAllLoginAccount">
+            <summary>
+            获取所有登录账户信息信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MIS.Service.Contract.IService.GetLoginAccountList(System.Guid)">
+            <summary>
+            指定职务获取登录员工信息
+            </summary>
+            <param name="positionId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MIS.Service.Contract.IService.GetAccountInfo(System.String)">
+            <summary>
+            获取登录账户信息信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MIS.Service.Contract.IService.GetAccountInfoByRealName(System.String)">
+            <summary>
+            获取登录账户信息信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MIS.Service.Contract.IService.GetAccountInfoByPersonnelId(System.Guid)">
+            <summary>
+            获取登录账户信息信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MIS.Service.Contract.IService.GetAccountsByPersonnelIds(System.Collections.Generic.IEnumerable{System.Guid})">
+            <summary>
+            批量获取登录账户信息信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MIS.Service.Contract.IService.UpdateLoginPassword(System.String,System.String)">
+            <summary>
+            修改密码
+            </summary>
+            <param name="accountNo"></param>
+            <param name="pwd"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MIS.Service.Contract.IService.DeleteAccountInfo(System.Guid)">
+            <summary>
+            
+            </summary>
+            <param name="personnelId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MIS.Service.Contract.IService.SaveAccountRealName(System.Guid,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="personnelId"></param>
+            <param name="realName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MIS.Service.Contract.IService.AddLoginAccountInfo(MIS.Model.Data.LoginAccountEntity)">
+            <summary>
+            
+            </summary>
+            <param name="info"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MIS.Service.Contract.IService.ChangePersonnelPosition(System.Guid,System.Guid)">
+            <summary>
+            变更员工的职务
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MIS.Service.Contract.IService.ChangePersonnelSystemPosition(System.Guid,System.Guid)">
+            <summary>
+            变更员工的系统权限职务
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MIS.Service.Contract.IService.GetLoginAccountListBySystemBranchId(System.Guid,System.Guid)">
+            <summary>
+            通过系统部门ID获取用户信息
+            </summary>
+            <param name="filialeId"></param>
+            <param name="systemBranchId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MIS.Service.Contract.IService.GetMenuInfo(System.Guid)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MIS.Service.Contract.IService.GetAllPosition">
+            <summary>
+            获取所有被绑定的职务信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MIS.Service.Contract.IService.GetAll">
+            <summary>
+            获取所有职务信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MIS.Service.Contract.IService.GetPositionInfo(System.Guid)">
+            <summary>
+            获取职务信息
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MIS.Service.Contract.IService.AddPositionInfo(MIS.Model.Data.PositionEntity)">
+            <summary>
+            添加职务信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MIS.Service.Contract.IService.SavePositionInfo(MIS.Model.Data.PositionEntity)">
+            <summary>
+            修改职务信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MIS.Service.Contract.IService.SetIsActive(System.Guid,System.Boolean)">
+            <summary>
+            设置职务信息无效
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MIS.Service.Contract.IService.AddBranchPositionRelation(MIS.Model.Data.BranchPositionEntity)">
+            <summary>
+            添加部门职务信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MIS.Service.Contract.IService.SaveBranchPositionRelation(MIS.Model.Data.BranchPositionEntity)">
+            <summary>
+            修改部门职务信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MIS.Service.Contract.IService.DeleteBranchPositionRelation(System.Guid)">
+            <summary>
+            删除部门职务信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MIS.Service.Contract.IService.GetSystemBranchPosition">
+            <summary>
+            获取系统职务信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MIS.Service.Contract.IService.GetSystemBranchPositionById(System.Guid)">
+            <summary>
+            根据关系ID获取系统职务信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MIS.Service.Contract.IService.GetAllBranch">
+            <summary>
+            获取所有部门信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MIS.Service.Contract.IService.GetBranchInfo(System.Guid)">
+            <summary>
+            获取部门信息
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MIS.Service.Contract.IService.AddBranchInfo(MIS.Model.Data.BranchEntity)">
+            <summary>
+            添加部门信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MIS.Service.Contract.IService.SaveBranchInfo(MIS.Model.Data.BranchEntity)">
+            <summary>
+            
+            </summary>
+            <param name="info"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MIS.Service.Contract.IService.SetBranchIsActive(System.Guid,System.Boolean)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <param name="isActive"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MIS.Service.Contract.IService.DeleteBranchInfo(System.Guid)">
+            <summary>
+            删除部门信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MIS.Service.Contract.IService.GetAllBranchByFilialeId(System.Guid)">
+            <summary>
+            根据公司ID获取部门信息
+            </summary>
+            <param name="filialeId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MIS.Service.Contract.IService.GetAllFilialeBranch">
+            <summary>
+            获取所有公司部门信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MIS.Service.Contract.IService.AddFilialeBranchRelation(MIS.Model.Data.FilialeBranchEntity)">
+            <summary>
+            添加公司部门信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MIS.Service.Contract.IService.DeleteFilialeBranchRelation(System.Guid)">
+            <summary>
+            删除公司部门信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MIS.Service.Contract.IService.GetAllSystemBranch">
+            <summary>
+            获取所有系统部门职务信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MIS.Service.Contract.IService.VerifyPageIsVisitPermission(System.Guid,System.Guid,System.String)">
+            <summary>
+            获取菜单是否有访问权限
+            </summary>
+            <param name="personnelId"></param>
+            <param name="systemId"></param>
+            <param name="pageUrl"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MIS.Service.Contract.IService.VerifyPageOperationIsVisitPermission(System.Guid,System.Guid,System.String,System.String)">
+            <summary>
+            验证是否允许操作
+            </summary>
+            <param name="personnelId"></param>
+            <param name="systemId"></param>
+            <param name="pageUrl"></param>
+            <param name="pointCode"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MIS.Service.Contract.IService.GetHasPermissionPageOperationCollection(System.Guid,System.Guid,System.String)">
+            <summary>
+            获取指定页面上有权限的操作点
+            </summary>
+            <param name="personnelId"></param>
+            <param name="systemId"></param>
+            <param name="pageUrl"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MIS.Service.Contract.IService.GetAllFiliale">
+            <summary>
+            获取所有公司
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MIS.Service.Contract.IService.GetAllLogisticsFiliale">
+            <summary>
+            获取所有物流公司
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MIS.Service.Contract.IService.GetEntityShopFilialeList">
+            <summary>
+            获取实体店列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MIS.Service.Contract.IService.GetFilialeInfo(System.Guid)">
+            <summary>
+            获取公司信息
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MIS.Service.Contract.IService.AddFilialeInfo(MIS.Model.Data.FilialeEntity,System.Collections.Generic.List{System.Int32},System.Collections.Generic.List{System.Int32})">
+            <summary>
+            添加公司信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MIS.Service.Contract.IService.UpdateFiliale(MIS.Model.Data.FilialeEntity,System.Collections.Generic.List{System.Int32},System.Collections.Generic.List{System.Int32})">
+            <summary>
+            修改公司信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MIS.Service.Contract.IService.DeleteFiliale(System.Guid)">
+            <summary>
+            删除公司信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MIS.Service.Contract.IService.SetFilialeIsActive(System.Guid,System.Boolean)">
+            <summary>
+            设置公司是否有效
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MIS.Service.Contract.IService.AddReleaseVersion(MIS.Model.Data.ReleaseVersionEntity)">
+            <summary>
+            添加发布版本
+            </summary>
+            <param name="releaseVersionInfo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MIS.Service.Contract.IService.GetAllSystem">
+            <summary>
+            获取所有系统信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MIS.Service.Contract.IService.GetSystemInfo(System.Guid)">
+            <summary>
+            获取系统信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MIS.Service.Contract.IService.GetMenuList(System.Guid)">
+            <summary>
+            指定系统获取所有的菜单信息
+            </summary>
+            <param name="systemId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MIS.Service.Contract.IService.GetAllSalePlatform">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MIS.Service.Contract.IService.GetSalePlatformInfo(System.Guid)">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MIS.Service.Contract.IService.GetDefaultSalePlatformId(System.Guid)">
+            <summary>
+            
+            </summary>
+            <param name="filialeId"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

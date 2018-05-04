@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<ConfigInfo xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <CompanyId>7ae62af0-eb1f-49c6-8fd1-128d77c84698</CompanyId>
+  <WarehouseId>b5bcdf6e-95d5-4aee-9b19-6ee218255c05</WarehouseId>
+  <InvoiceFilialeId>7ae62af0-eb1f-49c6-8fd1-128d77c84698</InvoiceFilialeId>
+  <OrderType>0</OrderType>
+  <PrintOrderModel>914b9d2a-1e58-4cd7-a248-1032fdfedc13</PrintOrderModel>
+  <PrintPlatformSetModelList />
+  <ExpList />
+</ConfigInfo>

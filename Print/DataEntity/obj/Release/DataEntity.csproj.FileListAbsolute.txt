@@ -1,0 +1,4 @@
+D:\zhst\MySVN\Print\DataEntity\bin\Release\DataEntity.dll
+D:\zhst\MySVN\Print\DataEntity\bin\Release\DataEntity.pdb
+D:\zhst\MySVN\Print\DataEntity\obj\Release\DataEntity.dll
+D:\zhst\MySVN\Print\DataEntity\obj\Release\DataEntity.pdb

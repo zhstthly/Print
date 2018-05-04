@@ -1,0 +1,268 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MIS.Enum</name>
+    </assembly>
+    <members>
+        <member name="T:MIS.Enum.AccountActionType">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:MIS.Enum.AccountActionType.VerifyLogin">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:MIS.Enum.AccountActionType.VerifyPermission">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:MIS.Enum.AccountActionType.NoActivityTimeout">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:MIS.Enum.AccountCheckingType">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:MIS.Enum.AccountCheckingType.Proprietary">
+            <summary>
+            直接到款进账
+            </summary>
+        </member>
+        <member name="F:MIS.Enum.AccountCheckingType.AutoChecking">
+            <summary>
+            冻结自动进账
+            </summary>
+        </member>
+        <member name="F:MIS.Enum.AccountCheckingType.ManMadeChecking">
+            <summary>
+            人工对账进账
+            </summary>
+        </member>
+        <member name="T:MIS.Enum.Attributes.EnumArrtibute">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:MIS.Enum.Attributes.EnumArrtibute.#ctor(System.String)">
+            <summary>
+            Enum项的文字描述信息
+            </summary>
+            <param name="name">关键字名称</param>
+        </member>
+        <member name="M:MIS.Enum.Attributes.EnumArrtibute.#ctor(System.Int32,System.String)">
+            <summary>
+            Enum项的文字描述信息
+            </summary>
+            <param name="index"></param>
+            <param name="name">关键字名称</param>
+        </member>
+        <member name="P:MIS.Enum.Attributes.EnumArrtibute.Index">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:MIS.Enum.Attributes.EnumArrtibute.Key">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:MIS.Enum.Attributes.EnumArrtibute.Name">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:MIS.Enum.Attributes.EnumArrtibute.GetDict``1">
+            <summary>
+            得到枚举的所有值/描述对列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MIS.Enum.Attributes.EnumArrtibute.GetDict``1(System.Int32[])">
+            <summary>
+            得到枚举的所有值/描述对列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MIS.Enum.Attributes.EnumArrtibute.GetKeyName``1(``0)">
+            <summary>
+            
+            </summary>
+            <param name="enumKey"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MIS.Enum.Attributes.EnumArrtibute.GetKeyName``1(``0,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="enumKey"></param>
+            <param name="defaultValue"></param>
+            <returns></returns>
+        </member>
+        <member name="T:MIS.Enum.FilialeType">
+            <summary>
+            公司类型
+            </summary>
+        </member>
+        <member name="F:MIS.Enum.FilialeType.SaleCompany">
+            <summary>
+            (B2C)销售总公司
+            </summary>
+        </member>
+        <member name="F:MIS.Enum.FilialeType.EntityShop">
+            <summary>
+            实体门店公司
+            </summary>
+        </member>
+        <member name="F:MIS.Enum.FilialeType.LogisticsCompany">
+            <summary>
+            物流公司类型
+            </summary>
+        </member>
+        <member name="T:MIS.Enum.SalePlatFormType">
+            <summary>
+            销售平台类型
+            </summary>
+        </member>
+        <member name="F:MIS.Enum.SalePlatFormType.MasterWebSite">
+            <summary>
+            主站
+            </summary>
+        </member>
+        <member name="F:MIS.Enum.SalePlatFormType.MobilePhone">
+            <summary>
+            手机端
+            </summary>
+        </member>
+        <member name="F:MIS.Enum.SalePlatFormType.JingDong">
+            <summary>
+            京东
+            </summary>
+        </member>
+        <member name="F:MIS.Enum.SalePlatFormType.TianMao">
+            <summary>
+            天猫
+            </summary>
+        </member>
+        <member name="T:MIS.Enum.ServiceType">
+            <summary>
+            新构架系统关键字
+            </summary>
+        </member>
+        <member name="F:MIS.Enum.ServiceType.MIS">
+            <summary>
+            基础服务
+            </summary>
+        </member>
+        <member name="F:MIS.Enum.ServiceType.ERP">
+            <summary>
+            主业务服务
+            </summary>
+        </member>
+        <member name="F:MIS.Enum.ServiceType.B2C">
+            <summary>
+            主服务
+            </summary>
+        </member>
+        <member name="F:MIS.Enum.ServiceType.Comment">
+            <summary>
+            评论服务
+            </summary>
+        </member>
+        <member name="F:MIS.Enum.ServiceType.StockCenter">
+            <summary>
+            库存中心服务
+            </summary>
+        </member>
+        <member name="F:MIS.Enum.ServiceType.Shop">
+            <summary>
+            门店服务
+            </summary>
+        </member>
+        <member name="F:MIS.Enum.ServiceType.GoodsCenter">
+            <summary>
+            商品中心
+            </summary>
+        </member>
+        <member name="T:MIS.Enum.FilialeRank">
+            <summary>
+            公司级别（分类）
+            </summary>
+        </member>
+        <member name="F:MIS.Enum.FilialeRank.Head">
+            <summary>
+            总公司（销售公司）
+            </summary>
+        </member>
+        <member name="F:MIS.Enum.FilialeRank.Partial">
+            <summary>
+            分公司（门店）
+            </summary>
+        </member>
+        <member name="F:MIS.Enum.FilialeRank.Child">
+            <summary>
+            子公司
+            </summary>
+        </member>
+        <member name="T:MIS.Enum.ShopJoinType">
+            <summary>
+            实体店加盟类型
+            </summary>
+        </member>
+        <member name="F:MIS.Enum.ShopJoinType.DirectSales">
+            <summary>
+            直营
+            </summary>
+        </member>
+        <member name="F:MIS.Enum.ShopJoinType.Join">
+            <summary>
+            加盟
+            </summary>
+        </member>
+        <member name="F:MIS.Enum.ShopJoinType.Alliance">
+            <summary>
+            联盟
+            </summary>
+        </member>
+        <member name="T:MIS.Enum.SystemType">
+            <summary>
+            系统类型
+            </summary>
+        </member>
+        <member name="F:MIS.Enum.SystemType.B2C">
+            <summary>
+            B2C后台系统
+            </summary>
+        </member>
+        <member name="F:MIS.Enum.SystemType.PartialFiliale">
+            <summary>
+            分公司后台系统
+            </summary>
+        </member>
+        <member name="F:MIS.Enum.SystemType.Tmall">
+            <summary>
+            天猫销售后台系统
+            </summary>
+        </member>
+        <member name="F:MIS.Enum.SystemType.JD">
+            <summary>
+            京东销售后台系统
+            </summary>
+        </member>
+        <member name="F:MIS.Enum.SystemType.EntityShop">
+            <summary>
+            实体店后台系统
+            </summary>
+        </member>
+        <member name="F:MIS.Enum.SystemType.General">
+            <summary>
+            通用后台系统
+            </summary>
+        </member>
+    </members>
+</doc>

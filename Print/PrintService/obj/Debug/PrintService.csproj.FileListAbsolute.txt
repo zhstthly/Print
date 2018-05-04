@@ -1,0 +1,5 @@
+D:\zhst\MySVN\Print\PrintService\bin\Debug\PrintService.dll
+D:\zhst\MySVN\Print\PrintService\bin\Debug\PrintService.pdb
+D:\zhst\MySVN\Print\PrintService\obj\Debug\PrintService.csprojResolveAssemblyReference.cache
+D:\zhst\MySVN\Print\PrintService\obj\Debug\PrintService.dll
+D:\zhst\MySVN\Print\PrintService\obj\Debug\PrintService.pdb

@@ -1,0 +1,14 @@
+D:\zhst\MySVN\Print\PrintEntity\bin\Debug\PrintEntity.dll
+D:\zhst\MySVN\Print\PrintEntity\bin\Debug\PrintEntity.pdb
+D:\zhst\MySVN\Print\PrintEntity\obj\Debug\PrintEntity.csprojResolveAssemblyReference.cache
+D:\zhst\MySVN\Print\PrintEntity\obj\Debug\PrintEntity.dll
+D:\zhst\MySVN\Print\PrintEntity\obj\Debug\PrintEntity.pdb
+D:\zhst\MySVN\Print\PrintEntity\bin\Debug\DataEntity.dll
+D:\zhst\MySVN\Print\PrintEntity\bin\Debug\DataEntity.pdb
+C:\Users\kedekfb\Desktop\Projects\Print\Print\PrintEntity\bin\Debug\PrintEntity.dll
+C:\Users\kedekfb\Desktop\Projects\Print\Print\PrintEntity\bin\Debug\PrintEntity.pdb
+C:\Users\kedekfb\Desktop\Projects\Print\Print\PrintEntity\bin\Debug\DataEntity.dll
+C:\Users\kedekfb\Desktop\Projects\Print\Print\PrintEntity\bin\Debug\DataEntity.pdb
+C:\Users\kedekfb\Desktop\Projects\Print\Print\PrintEntity\obj\Debug\PrintEntity.csprojResolveAssemblyReference.cache
+C:\Users\kedekfb\Desktop\Projects\Print\Print\PrintEntity\obj\Debug\PrintEntity.dll
+C:\Users\kedekfb\Desktop\Projects\Print\Print\PrintEntity\obj\Debug\PrintEntity.pdb
