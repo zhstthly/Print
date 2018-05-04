@@ -70,3 +70,6 @@ C:\Users\kedekfb\Desktop\Projects\Print\Print\Print\obj\Debug\Print.MainForm.res
 C:\Users\kedekfb\Desktop\Projects\Print\Print\Print\obj\Debug\Print.Properties.Resources.resources
 C:\Users\kedekfb\Desktop\Projects\Print\Print\Print\obj\Debug\Print.csproj.GenerateResource.Cache
 C:\Users\kedekfb\Desktop\Projects\Print\Print\Print\obj\Debug\Print.exe
+D:\GitRepository\Print\Print\Print\bin\Debug\Print.exe.config
+D:\GitRepository\Print\Print\Print\obj\Debug\Print.exe
+D:\GitRepository\Print\Print\Print\obj\Debug\Print.pdb
